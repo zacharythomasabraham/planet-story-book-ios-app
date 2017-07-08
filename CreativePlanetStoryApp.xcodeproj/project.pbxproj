@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E52BE711F11586F0049395D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52BE701F11586F0049395D /* AppDelegate.swift */; };
+		0E52BE731F11586F0049395D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52BE721F11586F0049395D /* ViewController.swift */; };
+		0E52BE761F11586F0049395D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E52BE741F11586F0049395D /* Main.storyboard */; };
+		0E52BE781F11586F0049395D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E52BE771F11586F0049395D /* Assets.xcassets */; };
+		0E52BE7B1F11586F0049395D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E52BE791F11586F0049395D /* LaunchScreen.storyboard */; };
+		0E52BE861F11586F0049395D /* CreativePlanetStoryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52BE851F11586F0049395D /* CreativePlanetStoryAppTests.swift */; };
+		0E52BE911F11586F0049395D /* CreativePlanetStoryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E52BE901F11586F0049395D /* CreativePlanetStoryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E52BE821F11586F0049395D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E52BE651F11586F0049395D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E52BE6C1F11586F0049395D;
+			remoteInfo = CreativePlanetStoryApp;
+		};
+		0E52BE8D1F11586F0049395D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E52BE651F11586F0049395D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E52BE6C1F11586F0049395D;
+			remoteInfo = CreativePlanetStoryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E52BE6D1F11586F0049395D /* CreativePlanetStoryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativePlanetStoryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E52BE701F11586F0049395D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E52BE721F11586F0049395D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E52BE751F11586F0049395D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E52BE771F11586F0049395D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E52BE7A1F11586F0049395D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E52BE7C1F11586F0049395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E52BE811F11586F0049395D /* CreativePlanetStoryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativePlanetStoryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E52BE851F11586F0049395D /* CreativePlanetStoryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativePlanetStoryAppTests.swift; sourceTree = "<group>"; };
+		0E52BE871F11586F0049395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E52BE8C1F11586F0049395D /* CreativePlanetStoryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativePlanetStoryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E52BE901F11586F0049395D /* CreativePlanetStoryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativePlanetStoryAppUITests.swift; sourceTree = "<group>"; };
+		0E52BE921F11586F0049395D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E52BE6A1F11586F0049395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE7E1F11586F0049395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE891F11586F0049395D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E52BE641F11586F0049395D = {
+			isa = PBXGroup;
+			children = (
+				0E52BE6F1F11586F0049395D /* CreativePlanetStoryApp */,
+				0E52BE841F11586F0049395D /* CreativePlanetStoryAppTests */,
+				0E52BE8F1F11586F0049395D /* CreativePlanetStoryAppUITests */,
+				0E52BE6E1F11586F0049395D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E52BE6E1F11586F0049395D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E52BE6D1F11586F0049395D /* CreativePlanetStoryApp.app */,
+				0E52BE811F11586F0049395D /* CreativePlanetStoryAppTests.xctest */,
+				0E52BE8C1F11586F0049395D /* CreativePlanetStoryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E52BE6F1F11586F0049395D /* CreativePlanetStoryApp */ = {
+			isa = PBXGroup;
+			children = (
+				0E52BE701F11586F0049395D /* AppDelegate.swift */,
+				0E52BE721F11586F0049395D /* ViewController.swift */,
+				0E52BE741F11586F0049395D /* Main.storyboard */,
+				0E52BE771F11586F0049395D /* Assets.xcassets */,
+				0E52BE791F11586F0049395D /* LaunchScreen.storyboard */,
+				0E52BE7C1F11586F0049395D /* Info.plist */,
+			);
+			path = CreativePlanetStoryApp;
+			sourceTree = "<group>";
+		};
+		0E52BE841F11586F0049395D /* CreativePlanetStoryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E52BE851F11586F0049395D /* CreativePlanetStoryAppTests.swift */,
+				0E52BE871F11586F0049395D /* Info.plist */,
+			);
+			path = CreativePlanetStoryAppTests;
+			sourceTree = "<group>";
+		};
+		0E52BE8F1F11586F0049395D /* CreativePlanetStoryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E52BE901F11586F0049395D /* CreativePlanetStoryAppUITests.swift */,
+				0E52BE921F11586F0049395D /* Info.plist */,
+			);
+			path = CreativePlanetStoryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E52BE6C1F11586F0049395D /* CreativePlanetStoryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E52BE951F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryApp" */;
+			buildPhases = (
+				0E52BE691F11586F0049395D /* Sources */,
+				0E52BE6A1F11586F0049395D /* Frameworks */,
+				0E52BE6B1F11586F0049395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreativePlanetStoryApp;
+			productName = CreativePlanetStoryApp;
+			productReference = 0E52BE6D1F11586F0049395D /* CreativePlanetStoryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E52BE801F11586F0049395D /* CreativePlanetStoryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E52BE981F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryAppTests" */;
+			buildPhases = (
+				0E52BE7D1F11586F0049395D /* Sources */,
+				0E52BE7E1F11586F0049395D /* Frameworks */,
+				0E52BE7F1F11586F0049395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E52BE831F11586F0049395D /* PBXTargetDependency */,
+			);
+			name = CreativePlanetStoryAppTests;
+			productName = CreativePlanetStoryAppTests;
+			productReference = 0E52BE811F11586F0049395D /* CreativePlanetStoryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E52BE8B1F11586F0049395D /* CreativePlanetStoryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E52BE9B1F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryAppUITests" */;
+			buildPhases = (
+				0E52BE881F11586F0049395D /* Sources */,
+				0E52BE891F11586F0049395D /* Frameworks */,
+				0E52BE8A1F11586F0049395D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E52BE8E1F11586F0049395D /* PBXTargetDependency */,
+			);
+			name = CreativePlanetStoryAppUITests;
+			productName = CreativePlanetStoryAppUITests;
+			productReference = 0E52BE8C1F11586F0049395D /* CreativePlanetStoryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E52BE651F11586F0049395D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dimple Joseph";
+				TargetAttributes = {
+					0E52BE6C1F11586F0049395D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B552B3H36D;
+						ProvisioningStyle = Automatic;
+					};
+					0E52BE801F11586F0049395D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B552B3H36D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E52BE6C1F11586F0049395D;
+					};
+					0E52BE8B1F11586F0049395D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B552B3H36D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E52BE6C1F11586F0049395D;
+					};
+				};
+			};
+			buildConfigurationList = 0E52BE681F11586F0049395D /* Build configuration list for PBXProject "CreativePlanetStoryApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E52BE641F11586F0049395D;
+			productRefGroup = 0E52BE6E1F11586F0049395D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E52BE6C1F11586F0049395D /* CreativePlanetStoryApp */,
+				0E52BE801F11586F0049395D /* CreativePlanetStoryAppTests */,
+				0E52BE8B1F11586F0049395D /* CreativePlanetStoryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E52BE6B1F11586F0049395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52BE7B1F11586F0049395D /* LaunchScreen.storyboard in Resources */,
+				0E52BE781F11586F0049395D /* Assets.xcassets in Resources */,
+				0E52BE761F11586F0049395D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE7F1F11586F0049395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE8A1F11586F0049395D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E52BE691F11586F0049395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52BE731F11586F0049395D /* ViewController.swift in Sources */,
+				0E52BE711F11586F0049395D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE7D1F11586F0049395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52BE861F11586F0049395D /* CreativePlanetStoryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E52BE881F11586F0049395D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E52BE911F11586F0049395D /* CreativePlanetStoryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E52BE831F11586F0049395D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E52BE6C1F11586F0049395D /* CreativePlanetStoryApp */;
+			targetProxy = 0E52BE821F11586F0049395D /* PBXContainerItemProxy */;
+		};
+		0E52BE8E1F11586F0049395D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E52BE6C1F11586F0049395D /* CreativePlanetStoryApp */;
+			targetProxy = 0E52BE8D1F11586F0049395D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E52BE741F11586F0049395D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E52BE751F11586F0049395D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E52BE791F11586F0049395D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E52BE7A1F11586F0049395D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E52BE931F11586F0049395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E52BE941F11586F0049395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E52BE961F11586F0049395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0E52BE971F11586F0049395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0E52BE991F11586F0049395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreativePlanetStoryApp.app/CreativePlanetStoryApp";
+			};
+			name = Debug;
+		};
+		0E52BE9A1F11586F0049395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreativePlanetStoryApp.app/CreativePlanetStoryApp";
+			};
+			name = Release;
+		};
+		0E52BE9C1F11586F0049395D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CreativePlanetStoryApp;
+			};
+			name = Debug;
+		};
+		0E52BE9D1F11586F0049395D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = B552B3H36D;
+				INFOPLIST_FILE = CreativePlanetStoryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.CreativePlanetStoryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CreativePlanetStoryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E52BE681F11586F0049395D /* Build configuration list for PBXProject "CreativePlanetStoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E52BE931F11586F0049395D /* Debug */,
+				0E52BE941F11586F0049395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E52BE951F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E52BE961F11586F0049395D /* Debug */,
+				0E52BE971F11586F0049395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E52BE981F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E52BE991F11586F0049395D /* Debug */,
+				0E52BE9A1F11586F0049395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E52BE9B1F11586F0049395D /* Build configuration list for PBXNativeTarget "CreativePlanetStoryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E52BE9C1F11586F0049395D /* Debug */,
+				0E52BE9D1F11586F0049395D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E52BE651F11586F0049395D /* Project object */;
+}
