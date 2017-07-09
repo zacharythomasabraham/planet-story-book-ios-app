@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CreativePlanetStoryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,82 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Planets" translatesAutoresizingMaskIntoConstraints="NO" id="sl3-KT-rOB">
+                                <rect key="frame" x="33" y="227" width="308" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="308" id="VDW-qy-UTQ"/>
+                                    <constraint firstAttribute="height" constant="213" id="cGh-EN-ch8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if the planets were the rooms in my house?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hra-kt-TiF">
+                                <rect key="frame" x="16" y="36" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="NBO-L5-FEj"/>
+                                    <constraint firstAttribute="height" constant="30" id="UVD-oL-iF3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What if the planets were the rooms in my house?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RK5-HW-K2x">
+                                <rect key="frame" x="16" y="87" width="343" height="126"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="0Rw-Zl-keu"/>
+                                    <constraint firstAttribute="height" constant="126" id="kQh-zN-bcV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4m3-h9-tN1">
+                                <rect key="frame" x="295" y="617" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="Ob4-Ku-K6c"/>
+                                    <constraint firstAttribute="height" constant="30" id="hB3-7f-Ncy"/>
+                                </constraints>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTZ-C6-qMC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7t-xt-hdF">
+                                <rect key="frame" x="16" y="617" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="2bf-Wy-ezn"/>
+                                    <constraint firstAttribute="height" constant="30" id="jhi-9K-ji6"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xeX-9Z-3I8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F7t-xt-hdF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4dY-wK-Vk2"/>
+                            <constraint firstItem="sl3-KT-rOB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="803-sV-q5g"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="F7t-xt-hdF" secondAttribute="bottom" constant="20" id="8fN-Jo-mdL"/>
+                            <constraint firstItem="RK5-HW-K2x" firstAttribute="top" secondItem="Hra-kt-TiF" secondAttribute="bottom" constant="21" id="Baz-cU-I32"/>
+                            <constraint firstItem="Hra-kt-TiF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xbi-b3-QnG"/>
+                            <constraint firstItem="RK5-HW-K2x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eBj-9t-VJj"/>
+                            <constraint firstItem="sl3-KT-rOB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fKo-R8-W6b"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4m3-h9-tN1" secondAttribute="bottom" constant="20" id="h79-mO-AWq"/>
+                            <constraint firstItem="Hra-kt-TiF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="rsy-IW-NPC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4m3-h9-tN1" secondAttribute="trailing" constant="18" id="vhC-Vk-BcB"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="sl3-KT-rOB" id="Vis-rf-xxb"/>
+                        <outlet property="text" destination="RK5-HW-K2x" id="nwX-MW-hXi"/>
+                        <outlet property="tilteLabelText" destination="Hra-kt-TiF" id="iz8-Ob-yow"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Planets" width="1280" height="756"/>
+    </resources>
 </document>
